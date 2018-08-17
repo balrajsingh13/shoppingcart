@@ -1,0 +1,38 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <!-- <div class="collapse navbar-collapse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" appDropdown>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>  
+                <ul class="dropdown-menu open">
+                    <li href="#">cat1</li>             //for website view
+                    <li href="#">cat2</li>
+                    <li href="#">cat3</li>
+                    <li href="#">cat4</li>
+                  </ul>                      
+            </button>
+          <a href="#" class="navbar-brand">Shopping Cart</a>
+        </div>
+    </div> -->
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" appDropdown>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>  
+            <ul class="dropdown-menu open">
+                <li  (click)="selectCategory('fruit')">fruits</li>
+                <br />
+                <li  (click)="selectCategory('vegetables')">vegetables</li>
+            </ul>                      
+        </button>
+      <a href="#" class="navbar-brand">Shopping Cart</a>
+    </div>
+
+  </div>
+</nav>  
+
+
